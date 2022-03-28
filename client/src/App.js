@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
-function App() {
+export default function App() {
 
     const [passwords, setPasswords] = useState([]);
 
     useEffect(() => {
-        getPasswords;
-    });
+        getPasswords();
+    }, []);
 
     const getPasswords = () => {
         // Get the passwords and store them in state
@@ -54,8 +54,6 @@ function App() {
                 </div>
             )}
         </div>
-    )
+    );
 
 };
-
-export default App;
