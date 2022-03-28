@@ -1,8 +1,6 @@
-# Rando
+# React-Express App 
 
 A password generator built with React and Express.
-
-This is a minimal demo of using Create React App to bootstrap a React project, connect the React app to an Express backend, and deploy the whole thing to Heroku.
 
 ## Prerequisites
 
