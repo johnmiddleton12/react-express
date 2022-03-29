@@ -3,7 +3,7 @@ import { MantineProvider, ColorSchemeProvider, ColorScheme } from '@mantine/core
 import { useLocalStorage } from '@mantine/hooks';
 import './App.css';
 import ToggleDark from './components/ToggleDark';
-import Passwords from './components/Passwords';
+import Passwords from './components/Passwords.js';
 
 export default function App() {
 
