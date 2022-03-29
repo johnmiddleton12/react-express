@@ -22,7 +22,7 @@ export default function Passwords() {
         passwords.length ?
 
             (passwords.map(password => (
-                <tr key={"test"}>
+                <tr key={password}>
                     <td>{password}</td>
                 </tr>
             )))
@@ -36,7 +36,7 @@ export default function Passwords() {
 
     return (
 
-            <Grid grow>
+            <Grid>
                 <Grid.Col style={{textAlign: 'center'}} span={12}>
                 <Text style={{fontSize : '4rem'}} weight={700}>5 Passwords.</Text>
                 </Grid.Col>
