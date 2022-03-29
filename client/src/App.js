@@ -39,7 +39,7 @@ export default function App() {
                     <button
                         className="more"
                         onClick={getPasswords}>
-                        Get More
+                        Get More Passwords
                     </button>
                 </div>
             ) : (
